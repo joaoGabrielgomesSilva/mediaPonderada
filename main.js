@@ -21,6 +21,15 @@ function verificar() {
   let resultado =  verificaAprovacao(media , presenca = 0.75) 
   // o cálculo da média corretamente.
   document.querySelector("#media").textContent = media;
-  document.querySelector("#resultado").textContent = resultado;
+ document.querySelector("#resultado").textContent = resultado;
 
+ function verificaAprovacao(media, presenca = 0.75) {
+
+ if (media >=7 && presenca >= 0.75) {
+  return respota = "aprovado"
+ } else {
+  return resposta = "reprovado"
+ }
+}
+return verificar 
 }
